@@ -27,7 +27,7 @@ spec:
       - env:
         - name: MONGODB_DATABASE
           value: rsvpdata
-        image: mongo:3.3
+        image: mongo:3.6
         imagePullPolicy: IfNotPresent
         name: rsvpd-db
         ports:
